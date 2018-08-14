@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Crystal Collector</title>
+
+  
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body>
+
+  <div class="container">
+    <!-- crystal collecter jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="text-center"><strong>Crystal Collector</strong></h1>
+      </div>
+    </div>
+    
+    <!-- instructions -->
+    <div class="row">
+      <div class="col-lg-12">
+        
+        <!-- instructions container -->
+        <div class="panel panel-default">
+          <div class="panel-heading heading">
+            <h3 class="panel-title text-center">Instructions</h3>
+          </div>
+          <div class="panel-body">
+            <p><strong>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your score. You will win the game by matching your total score to the random number. You will lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time the game starts, it will change the values of each crystal.</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- scores and crystals -->
+    <div class="row">
+      <!-- target score -->
+      <div class="col-lg-3">        
+        <div class="panel panel-default score">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Target Score</h3>
+          </div>
+          <div class="panel-body">
+            <h3 class="text-center" id="targetScore"><strong></strong></h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- user score -->
+      <div class="col-lg-3">        
+        <div class="panel panel-default score">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Your Score</h3>
+          </div>
+          <div class="panel-body">
+            <h3 class="text-center" id="yourScore"><strong></strong></h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- crystals -->
+      <div class="col-lg-6">       
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Crystal Selection</h3>
+          </div>
+          <div class="panel-body text-center">
+            <img src="assets/images/gem1.png" alt="gem 1" id="sapphire">
+            <img src="assets/images/gem2.png" alt="gem 2" id="ruby">
+            <img src="assets/images/gem3.png" alt="gem 3" id="diamond">
+            <img src="assets/images/gem4.png" alt="gem 4" id="emerald">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- counters row -->
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Wins</h3>
+          </div>
+          <div class="panel-body">
+            <h3 class="text-center" id="wins"><strong></strong></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Losses</h3>
+          </div>
+          <div class="panel-body">
+            <h3 class="text-center" id="losses"><strong></strong></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="empty-div">
+      
+    </div>
+
+  </div>
+
+  
+  
+  <!-- Latest compiled and minified JS -->
+  
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+  background: black;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.jumbotron {
+  background: darkgray;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  color: white;
+}
+
+.panel-default>.panel-heading {
+  background: darkgray;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  color: white;
+}
+
+.score {
+  height: 145px;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+}
+
+.empty-div {
+  height: 300px;
+}
